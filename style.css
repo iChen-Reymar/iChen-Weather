@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/free-photo/beautiful-natural-clouds-sky-daylight_23-2148825002.jpg?w=1380&t=st=1725549461~exp=1725550061~hmac=7c8879e76876ca7dfbef65bdff33f02818ad6273e1c2708182dd822e9c4d34b5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 8px #3f68c0;
+
+}
+#cityInput {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#searchButton {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+#weather {
+    display: flex;
+    padding-left:  350px;
+
+}   
+.weather-up{
+    display: flex;
+    margin: 75px;
+    margin-top: 10%;
+    flex-direction: column;
+    background-position: top;
+   background-image: url(https://i.ytimg.com/vi/n2ZfESR-WBs/maxresdefault.jpg);
+    opacity: 75px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    
+}
+
+
+#cityInput {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#searchButton {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #45a049;
+}
+  
